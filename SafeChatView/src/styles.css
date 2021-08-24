@@ -1,0 +1,56 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+html, body {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+#page-loading {
+    height: 100%;
+    width: 100%;
+    font-size: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dialog-container {
+    text-align: center;
+}
+
+.dialog-actions {
+    display: flex;
+    padding: 0;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.mat-option {
+    word-break: break-all !important;
+    word-wrap: break-word !important;
+    white-space: normal !important;
+    height: auto !important;
+    max-height: none !important;
+    align-items: center !important;
+    line-height: initial !important;
+    padding: 5px !important;
+}
+
+.mat-option-text {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.mat-badge-content {
+    font-weight: 100;
+}

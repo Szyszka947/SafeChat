@@ -1,0 +1,32 @@
+.formField {
+    width: 20vw;
+    margin-bottom: 5px;
+    max-width: 300px;
+    min-width: 200px;
+}
+
+#container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+form {
+    text-align: center;
+}
+
+#motto {
+    font-family: 'Just Another Hand', cursive;
+    font-size: 72px;
+    display: block;
+}
+
+@media(max-width: 1000px), (max-height: 600px) {
+    .formField {
+        width: 60vw;
+    }
+    #motto {
+        margin-top: 25%;
+    }
+}

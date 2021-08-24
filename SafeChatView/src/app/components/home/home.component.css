@@ -1,0 +1,196 @@
+.container {
+    display: grid;
+    grid-template-columns: 0.35fr 1.6fr;
+    grid-template-rows: 0.1fr 2.4fr 0.2fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "about-me group-name" "groups chat" "groups my-message";
+    font-family: 'Comfortaa', cursive;
+}
+
+.my-message {
+    grid-area: my-message;
+    background-color: #252525;
+}
+
+.chat {
+    grid-area: chat;
+    background-color: #303030;
+    overflow-y: auto;
+}
+
+.group-name {
+    grid-area: group-name;
+    background-color: #252525;
+}
+
+.about-me {
+    grid-area: about-me;
+}
+
+.groups {
+    grid-area: groups;
+    overflow-y: auto;
+}
+
+.container {
+    height: 100%;
+    margin: 0;
+}
+
+.about-me, .groups {
+    background-color: #202020;
+}
+
+#profile {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: #EC4C4C;
+}
+
+#my-profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#header {
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    align-items: center;
+    padding-left: 10px;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+/* macOS scrollbar from github: https://gist.github.com/spemer/a0e218bbb45433bd611e68446523a00b*/
+
+.groups::-webkit-scrollbar {
+    width: 12px;
+}
+
+.groups::-webkit-scrollbar-track {
+    background-color: #202020;
+}
+
+.groups::-webkit-scrollbar-thumb {
+    background-color: #babac0;
+    border-radius: 16px;
+    border: 4px solid #202020;
+}
+
+.groups::-webkit-scrollbar-button {
+    display: none;
+}
+
+#messages-list {
+    overflow-y: auto;
+    max-height: 100%;
+}
+
+.message {
+    list-style-type: none;
+    box-sizing: padding-box;
+    padding: 0;
+    word-wrap: break-word;
+    clear: both;
+    margin: 5px 10px 5px 10px;
+    max-width: 45%;
+}
+
+.message-left {
+    float: left;
+}
+
+.message-right {
+    float: right;
+}
+
+.my-message-icon {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+.my-message-icon:hover {
+    cursor: pointer;
+}
+
+.my-message-button-for-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#my-message-form {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+#my-message-form-field {
+    width: 40%;
+}
+
+#file-input {
+    display: none;
+}
+
+#my-message-form-selected-images-list {
+    list-style: none;
+}
+
+.my-message-form-selected-image {
+    height: 40px;
+    width: 40px;
+    min-width: 35px;
+}
+
+.my-message-form-li {
+    padding-right: 2.5px;
+    padding-left: 2.5px;
+    display: inline-block;
+}
+
+:host ::ng-deep .mat-form-field-wrapper {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+#my-message-form-message-input {
+    resize: none;
+    color: #fff;
+    max-height: 100px;
+}
+
+#my-message-form-label {
+    color: #fff;
+}
+
+#group-name-toolbar {
+    background-color: inherit;
+    font-weight: 400;
+    color: #fff;
+    height: 100%;
+}
+
+#group-name-toolbar-name {
+    font-size: 15px;
+}
+
+.remove-image-icon {
+    margin-left: -20px;
+}
+
+.group-name-toolbar-row {
+    word-break: break-all;
+    white-space: normal;
+    overflow-y: auto;
+    height: 100%;
+    max-height: 100px;
+}

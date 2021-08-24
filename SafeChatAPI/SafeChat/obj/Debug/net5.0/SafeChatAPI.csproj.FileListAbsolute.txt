@@ -1,0 +1,137 @@
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\obj\Debug\net5.0\SafeChatAPI.GeneratedMSBuildEditorConfig.editorconfig
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\obj\Debug\net5.0\SafeChatAPI.AssemblyInfoInputs.cache
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\obj\Debug\net5.0\SafeChatAPI.AssemblyInfo.cs
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\obj\Debug\net5.0\SafeChatAPI.csproj.CoreCompileInputs.cache
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\obj\Debug\net5.0\SafeChatAPI.MvcApplicationPartsAssemblyInfo.cache
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\appsettings.Development.json
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\appsettings.json
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\SafeChatAPI.exe
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\SafeChatAPI.deps.json
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\SafeChatAPI.runtimeconfig.json
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\SafeChatAPI.runtimeconfig.dev.json
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\SafeChatAPI.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\ref\SafeChatAPI.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\SafeChatAPI.pdb
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\AutoMapper.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\BCrypt.Net-Next.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Humanizer.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\IdentityModel.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\IdentityServer4.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\IdentityServer4.EntityFramework.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\IdentityServer4.EntityFramework.Storage.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\IdentityServer4.Storage.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Newtonsoft.Json.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\System.Runtime.Caching.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\obj\Debug\net5.0\staticwebassets\SafeChatAPI.StaticWebAssets.Manifest.cache
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\obj\Debug\net5.0\staticwebassets\SafeChatAPI.StaticWebAssets.xml
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\obj\Debug\net5.0\scopedcss\bundle\SafeChatAPI.styles.css
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\obj\Debug\net5.0\SafeChatAPI.RazorTargetAssemblyInfo.cache
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\obj\Debug\net5.0\SafeChatAPI.csproj.CopyComplete
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\obj\Debug\net5.0\SafeChatAPI.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\obj\Debug\net5.0\ref\SafeChatAPI.dll
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\obj\Debug\net5.0\SafeChatAPI.pdb
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\obj\Debug\net5.0\SafeChatAPI.genruntimeconfig.cache
+F:\C#+Angular Projects\SafeChat\SafeChatAPI\SafeChat\obj\Debug\net5.0\SafeChatAPI.csprojAssemblyReference.cache
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\appsettings.Development.json
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\appsettings.json
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\SafeChatAPI.exe
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\SafeChatAPI.deps.json
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\SafeChatAPI.runtimeconfig.json
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\SafeChatAPI.runtimeconfig.dev.json
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\SafeChatAPI.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\ref\SafeChatAPI.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\SafeChatAPI.pdb
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\BCrypt.Net-Next.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Humanizer.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\IdentityModel.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\Newtonsoft.Json.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\System.Runtime.Caching.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\obj\Debug\net5.0\SafeChatAPI.csprojAssemblyReference.cache
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\obj\Debug\net5.0\SafeChatAPI.GeneratedMSBuildEditorConfig.editorconfig
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\obj\Debug\net5.0\SafeChatAPI.AssemblyInfoInputs.cache
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\obj\Debug\net5.0\SafeChatAPI.AssemblyInfo.cs
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\obj\Debug\net5.0\SafeChatAPI.csproj.CoreCompileInputs.cache
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\obj\Debug\net5.0\SafeChatAPI.MvcApplicationPartsAssemblyInfo.cache
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\obj\Debug\net5.0\staticwebassets\SafeChatAPI.StaticWebAssets.Manifest.cache
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\obj\Debug\net5.0\staticwebassets\SafeChatAPI.StaticWebAssets.xml
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\obj\Debug\net5.0\scopedcss\bundle\SafeChatAPI.styles.css
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\obj\Debug\net5.0\SafeChatAPI.RazorTargetAssemblyInfo.cache
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\obj\Debug\net5.0\SafeChatAPI.csproj.CopyComplete
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\obj\Debug\net5.0\SafeChatAPI.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\obj\Debug\net5.0\ref\SafeChatAPI.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\obj\Debug\net5.0\SafeChatAPI.pdb
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\obj\Debug\net5.0\SafeChatAPI.genruntimeconfig.cache
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\System.Text.Encodings.Web.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\System.Text.Json.dll
+F:\ASPNETCoreAndAngularProjects\SafeChat\SafeChatAPI\SafeChat\bin\Debug\net5.0\SafeChatAPI.Views.dll

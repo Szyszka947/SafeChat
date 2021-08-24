@@ -1,0 +1,24 @@
+.contact {
+    background-color: inherit;
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    word-break: break-all;
+}
+
+.contact:hover {
+    cursor: pointer;
+    background-color: rgb(100, 100, 100);
+}
+
+.title {
+    color: #FFF;
+    font-size: 16px;
+}
+
+.subtitle {
+    color: #FFF;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}

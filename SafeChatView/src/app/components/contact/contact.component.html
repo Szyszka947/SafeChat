@@ -1,0 +1,17 @@
+<mat-card class="contact">
+    <mat-card-header>
+        <img mat-card-avatar src="../../../assets/img/cat.png">
+        <mat-card-title class="title">{{groupDto?.groupName}}</mat-card-title>
+        <mat-card-subtitle class="subtitle">
+            <ng-container *ngIf="groupDto?.isGroupPublic then public else private"></ng-container>
+        </mat-card-subtitle>
+    </mat-card-header>
+</mat-card>
+
+<ng-template #public>
+    <mat-icon>lock_open</mat-icon> Public chat
+</ng-template>
+
+<ng-template #private>
+    <mat-icon>lock</mat-icon> Private chat
+</ng-template>

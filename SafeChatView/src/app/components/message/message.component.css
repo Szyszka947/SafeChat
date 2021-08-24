@@ -1,0 +1,44 @@
+.img {
+    max-width: 200px;
+    height: 200px;
+}
+
+li {
+    display: inline-block;
+}
+
+.img:hover {
+    cursor: pointer;
+}
+
+.msg {
+    font-family: 'Comfortaa', cursive;
+    border-radius: 20px;
+    width: auto;
+}
+
+.msg-left {
+    background-color: #404040;
+}
+
+.msg-right {
+    background-color: #202020;
+}
+
+.title {
+    color: #FFF;
+    font-size: 14px;
+    word-break: break-all;
+    font-weight: bold;
+}
+
+.subtitle {
+    color: #FFF;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+}
+
+.content {
+    color: white;
+    font-size: 12px;
+}

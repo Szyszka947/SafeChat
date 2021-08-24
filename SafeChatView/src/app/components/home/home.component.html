@@ -1,0 +1,104 @@
+<div class="container">
+    <div class="my-message">
+        <form [formGroup]="sendMessageForm" (ngSubmit)="sendMessage(formData);" #formData *ngIf="groupSelected"
+            id="my-message-form">
+            <mat-form-field appearance="outline" id="my-message-form-field">
+                <mat-label id="my-message-form-label">Message...</mat-label>
+                <textarea matInput autocomplete="off" formControlName="Message" name="Content"
+                    id="my-message-form-message-input" [mat-autosize]="true"
+                    (keydown)="sendMessageByEnterPress($event);"></textarea>
+                <ul id="my-message-form-selected-images-list">
+                    <li *ngFor="let src of images; let i = index;" class="my-message-form-li">
+                        <img [src]="src" class="my-message-form-selected-image" #img [id]="i">
+                        <button mat-icon-button color="warn" (click)="removeSelectedFile(img);"
+                            class="remove-image-icon">
+                            <mat-icon>remove_circle_outline</mat-icon>
+                        </button>
+                    </li>
+                </ul>
+            </mat-form-field>
+
+            <button type="submit" mat-icon-button color="primary" class="my-message-button-for-icon">
+                <mat-icon class="my-message-icon">send</mat-icon>
+            </button>
+
+            <label for="file-input">
+                <mat-icon class="my-message-icon" color="primary">image</mat-icon>
+            </label>
+            <input type="file" id="file-input" multiple name="FormFiles" (change)="fileSelected();" #file>
+        </form>
+    </div>
+    <div class="chat">
+        <ul id="messages-list" #messagesList>
+            <li *ngFor="let message of groupMessages; let i = index; let last = last;"
+                [ngClass]="message.senderName == myName ? 'message message-right' : 'message message-left'" [id]="i">
+                <app-message [messageDto]="message" [left]="message.senderName == myName ? false : true">
+                </app-message>
+            </li>
+        </ul>
+    </div>
+    <div class="group-name">
+        <mat-toolbar *ngIf="currentGroupName!=''" id="group-name-toolbar">
+            <mat-toolbar-row class="group-name-toolbar-row">
+                <button mat-icon-button color="primary" [matMenuTriggerFor]="currentChatActionMenu">
+                    <mat-icon>settings</mat-icon>
+                </button>
+                <mat-menu #currentChatActionMenu>
+                    <button mat-menu-item (click)="showInviteUserUI();">
+                        <mat-icon>group_add</mat-icon>
+                        <span>Invite user</span>
+                    </button>
+                    <button mat-menu-item (click)="showKickUserUI();">
+                        <mat-icon>remove_circle_outline</mat-icon>
+                        <span>Kick user</span>
+                    </button>
+                    <button mat-menu-item (click)="showBanUserUI();">
+                        <mat-icon>remove_circle</mat-icon>
+                        <span>Ban user</span>
+                    </button>
+                    <button mat-menu-item (click)="showLeaveChatUI();">
+                        <mat-icon>exit_to_app</mat-icon>
+                        <span>Leave chat</span>
+                    </button>
+                </mat-menu>
+                <div id="group-name-toolbar-name">{{currentGroupName}}</div>
+            </mat-toolbar-row>
+        </mat-toolbar>
+    </div>
+    <div class="about-me">
+        <div id="profile">
+            <img src="../../../assets/img/cat.png" id="my-profile-img">
+            <div id="header">My chats</div>
+            <button mat-icon-button class="settings-icon" color="primary" [matMenuTriggerFor]="chatsActionsMenu">
+                <mat-icon>menu</mat-icon>
+            </button>
+            <mat-menu #chatsActionsMenu>
+                <button mat-menu-item (click)="showMyInvitationsUI();">
+                    <mat-icon [matBadge]="groupInvitations?.length" matBadgeColor="warn">favorite</mat-icon>
+                    <span>My invitations</span>
+                </button>
+                <button mat-menu-item (click)="showCreateChatUI();">
+                    <mat-icon>add_box</mat-icon>
+                    <span>Create chat</span>
+                </button>
+                <button mat-menu-item (click)="showJoinChatUI();">
+                    <mat-icon>person_add</mat-icon>
+                    <span>Join chat</span>
+                </button>
+                <button mat-menu-item (click)="logOut();">
+                    <mat-icon>exit_to_app</mat-icon>
+                    <span>Log out</span>
+                </button>
+            </mat-menu>
+        </div>
+    </div>
+    <div class="groups">
+        <ul id="group-list" #groupULList>
+            <li *ngFor="let group of groupList" (click)="showSelectedGroupMessages(group.id, group.groupName);"
+                [id]="'group-'+group.id">
+                <app-contact [attr.data-group-id]="group.id" [attr.data-group-name]="group.groupName"
+                    [attr.data-group-is-public]="group.isGroupPublic" [groupDto]="group"></app-contact>
+            </li>
+        </ul>
+    </div>
+</div>

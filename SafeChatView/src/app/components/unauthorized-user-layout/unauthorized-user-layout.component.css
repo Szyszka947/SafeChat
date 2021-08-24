@@ -1,0 +1,39 @@
+#layout-container {
+    height: 100%;
+    width: 100%;
+    min-width: 300px;
+}
+
+#oblique {
+    float: left;
+    border-top: 100vh solid #202020;
+    border-right: 10vw solid transparent;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+#oblique>img {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+@media(orientation: portrait) {
+    #oblique {
+        max-width: 50%;
+    }
+    @media(max-width: 1000px), (max-height: 600px) {
+        #oblique {
+            display: none;
+        }
+    }
+}
+
+@media(orientation: landscape) {
+    @media(max-width: 1000px), (max-height: 600px) {
+        #oblique {
+            display: none;
+        }
+    }
+}

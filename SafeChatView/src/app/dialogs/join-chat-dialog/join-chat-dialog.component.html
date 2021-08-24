@@ -1,0 +1,24 @@
+<div class="dialog-container">
+    <h2 mat-dialog-title>Join chat</h2>
+    <div mat-dialog-content class="content">
+        <mat-form-field>
+            <mat-label>Chat name</mat-label>
+            <input type="text" matInput [formControl]="control" [matAutocomplete]="auto">
+            <mat-autocomplete #auto="matAutocomplete"
+                (optionSelected)="updateSelectedOption($event.option.id, $event.option.value);">
+                <mat-option *ngFor="let group of filteredGroupsList | async; let e = even;" [id]="group.id.toString()"
+                    [value]="group.groupName" class="option" [ngClass]="e ? 'gray' : 'white'">
+                    <div class="helper-div">
+                        <img src="../../../assets/img/cat.png" class="img">
+                        {{group.groupName}}
+                    </div>
+                </mat-option>
+            </mat-autocomplete>
+        </mat-form-field>
+    </div>
+    Selected chat: {{selectedGroupName}}
+    <div mat-dialog-actions class="dialog-actions">
+        <button mat-button mat-dialog-close color="warn">Cancel</button>
+        <button mat-button color="primary" (click)="joinGroup();">Join</button>
+    </div>
+</div>

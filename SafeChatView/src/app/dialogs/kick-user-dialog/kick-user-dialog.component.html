@@ -1,0 +1,28 @@
+<div class="dialog-container">
+    <h2 mat-dialog-title>Kick user</h2>
+    <div mat-dialog-content class="content">
+        <mat-form-field>
+            <mat-label>Search group member</mat-label>
+            <input type="text" matInput [matAutocomplete]="auto" [formControl]="control">
+            <mat-autocomplete #auto="matAutocomplete"
+                (optionSelected)="updateSelectedOption($event.option.id, $event.option.value);">
+                <mat-option *ngFor="let user of filteredGroupMembersList | async; let e = even;"
+                    [id]="user.id.toString()" [value]="user.userName" class="option" [ngClass]="e ? 'gray' : 'white'">
+                    <div class="helper-div">
+                        <img src="../../../assets/img/cat.png" class="img">
+                        {{user.userName}}
+                    </div>
+                </mat-option>
+            </mat-autocomplete>
+        </mat-form-field><br>
+        <mat-form-field>
+            <mat-label>Kick reason</mat-label>
+            <input type="text" matInput [formControl]="kickReasonControl">
+        </mat-form-field>
+    </div>
+    Selected user: {{selectedUserName}}
+    <div mat-dialog-actions class="dialog-actions">
+        <button mat-button mat-dialog-close color="warn">Cancel</button>
+        <button mat-button color="primary" (click)="kickUser();">Kick</button>
+    </div>
+</div>

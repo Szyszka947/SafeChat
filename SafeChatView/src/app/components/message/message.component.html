@@ -1,0 +1,19 @@
+<mat-card [ngClass]="left==true ? 'msg msg-left' : 'msg msg-right'">
+    <mat-card-header>
+        <img mat-card-avatar src="../../../assets/img/cat.png">
+        <mat-card-title class="title">{{messageDto?.senderName}}</mat-card-title>
+        <mat-card-subtitle class="subtitle"><i>{{messageDto?.dateTime |date:'medium'}}</i></mat-card-subtitle>
+    </mat-card-header>
+    <ul>
+        <li *ngFor="let imageUrl of messageDto?.imageUrls">
+            <div style="margin-left: 20px; margin-right: 20px;">
+                <img #img (click)="activateFullScreenMode(img);" mat-card-image [src]="imageUrl" class="img">
+            </div>
+        </li>
+    </ul>
+    <mat-card-content class="content">
+        <p>
+            {{messageDto?.content}}
+        </p>
+    </mat-card-content>
+</mat-card>

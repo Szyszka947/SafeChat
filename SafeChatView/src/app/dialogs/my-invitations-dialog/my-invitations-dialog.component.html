@@ -1,0 +1,21 @@
+<div class="dialog-container">
+    <h2 mat-dialog-title>My invitations</h2>
+    <div mat-dialog-content class="content">
+        <ul>
+            <li *ngFor="let invitation of groupInvitationsList; let e = even;">
+                <div class="invitation">
+                    <div class="left">
+                        <img src="../../../assets/img/cat.png" class="img">
+                        {{invitation.groupName}}
+                    </div>
+                    <div class="right">
+                        <button mat-stroked-button color="warn" class="invitation-action-btn"
+                            (click)="discardInvitation(invitation.groupId);">Discard</button>
+                        <button mat-stroked-button color="primary" class="invitation-action-btn"
+                            (click)="acceptInvitation(invitation.groupId);">Accept</button>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
